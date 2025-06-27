@@ -1,0 +1,66 @@
+[
+  {
+    "title": "What is Vue.js?",
+    "text": "Vue.js is a progressive JavaScript framework for building user interfaces. It's designed to be incrementally adoptable, meaning you can use as little or as much of Vue as needed in your project."
+  },
+  {
+    "title": "Vue Instance Lifecycle",
+    "text": "Vue components have 8 main lifecycle hooks: beforeCreate, created, beforeMount, mounted, beforeUpdate, updated, beforeUnmount, and unmounted. These hooks allow you to run code at specific stages of a component's life."
+  },
+  {
+    "title": "Reactivity System",
+    "text": "Vue 3 uses Proxy-based reactivity system that automatically tracks dependencies and updates the DOM when reactive data changes. Use ref() for primitives and reactive() for objects."
+  },
+  {
+    "title": "Template Syntax",
+    "text": "Vue uses HTML-based template syntax with directives like v-if, v-for, v-model, and v-on. Interpolation uses double curly braces {{ }} for text and v-bind or : for attributes."
+  },
+  {
+    "title": "Computed Properties",
+    "text": "Computed properties are cached based on their reactive dependencies and only re-evaluate when dependencies change. They're more efficient than methods for expensive operations that depend on reactive data."
+  },
+  {
+    "title": "Composition API vs Options API",
+    "text": "Options API organizes code by options (data, methods, computed). Composition API uses setup() function with reactive utilities, offering better TypeScript support and code reusability through composables."
+  },
+  {
+    "title": "Props and Emit",
+    "text": "Props pass data down from parent to child components. Child components communicate with parents using emit() to trigger custom events. Props are one-way data flow for predictable state management."
+  },
+  {
+    "title": "Vue Router",
+    "text": "Vue Router is the official routing library for Vue.js SPAs. It supports nested routes, route guards, lazy loading, and programmatic navigation. Use router-link for navigation and router-view for rendering components."
+  },
+  {
+    "title": "Vuex vs Pinia",
+    "text": "Vuex is the traditional state management pattern for Vue. Pinia is the new official state manager, offering better TypeScript support, simpler API, and no mutations. Pinia is recommended for new projects."
+  },
+  {
+    "title": "Directives",
+    "text": "Vue directives are special attributes with v- prefix. Built-in directives include v-if, v-show, v-for, v-model, v-on, v-bind. You can also create custom directives for DOM manipulation."
+  },
+  {
+    "title": "Slots",
+    "text": "Slots allow parent components to pass content into child component templates. Named slots and scoped slots provide flexible content distribution patterns for reusable components."
+  },
+  {
+    "title": "Vue 3 Performance Improvements",
+    "text": "Vue 3 is smaller, faster, and more tree-shakable than Vue 2. It features Proxy-based reactivity, Fragment support, Teleport, Suspense, and better TypeScript integration."
+  },
+  {
+    "title": "Watchers",
+    "text": "Watchers observe reactive data changes and perform side effects. Use watch() for specific properties and watchEffect() for automatic dependency tracking. Watchers are useful for async operations and API calls."
+  },
+  {
+    "title": "Component Communication",
+    "text": "Vue components communicate through props (parent to child), emit (child to parent), provide/inject (ancestor to descendant), and global state management libraries like Pinia."
+  },
+  {
+    "title": "Single File Components (SFC)",
+    "text": "Vue SFCs combine template, script, and style in one .vue file. They support scoped CSS, CSS modules, preprocessors, and enable better development experience with proper IDE support."
+  },
+  {
+    "title": "Vue DevTools",
+    "text": "Vue DevTools browser extension provides component inspection, time-travel debugging, performance profiling, and routing inspection. Essential tool for Vue development and debugging."
+  }
+]
