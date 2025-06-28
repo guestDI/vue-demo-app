@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterLink } from 'vue-router'
+import ScoreBadge from '@/components/ScoreBadge.vue'
 </script>
 
 <template>
@@ -8,7 +9,6 @@ import { RouterLink, RouterView } from 'vue-router'
 
     <div class="wrapper">
       <nav>
-        <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
         <RouterLink to="/flashcards">Flashcards</RouterLink>
         <RouterLink to="/playground">Playground</RouterLink>
@@ -55,6 +55,14 @@ nav a {
 
 nav a:first-of-type {
   border: 0;
+}
+
+.layout-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
 @media (min-width: 1024px) {
